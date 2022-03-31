@@ -15,3 +15,20 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Hoge
+
+* TODO: Write here!
+* TODO: Write here!
+* TODO: Write here!
+* TODO: Write here!
+
+## Foo
+
+* TODO: Write here!
+* TODO: Write here!
+* TODO: Write here!
+* TODO: Write here!
+
+[Overview](overview/overview){ .md-button .md-button--primary }
+[View Latest](details/latest){ .md-button .md-button--secondary }
