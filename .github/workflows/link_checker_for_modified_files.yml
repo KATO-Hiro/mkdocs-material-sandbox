@@ -20,7 +20,7 @@ jobs:
       run: git config --global --add safe.directory /github/workspace
 
     - name: Run markdown-link-check
-      uses: gaurav-nelson/github-action-markdown-link-check@1.0.13
+      uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
