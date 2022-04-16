@@ -28,5 +28,3 @@ jobs:
         base-branch: 'main'
         folder-path: 'docs'
         file-path: './README.md'
-        user_name: 'GitHub Action'
-        user_email: 'action@github.com'
