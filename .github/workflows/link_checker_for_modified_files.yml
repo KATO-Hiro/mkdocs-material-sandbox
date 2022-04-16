@@ -13,14 +13,15 @@ jobs:
     # Workaround for `fatal: unsafe repository (REPO is owned by someone else)` issue
     # https://github.com/actions/checkout/issues/760
     # https://github.com/actions/checkout/issues/766
-    - name: Trust /github/workspace (before git v2.35.2)
-      run: export GIT_CEILING_DIRECTORIES=/github/workspace
+    # - name: Trust /github/workspace (before git v2.35.2)
+    #   run: export GIT_CEILING_DIRECTORIES=/github/workspace
 
-    - name: Trust /github/workspace (after git v2.35.2)
-      run: git config --global --add safe.directory /github/workspace
+    # - name: Trust /github/workspace (after git v2.35.2)
+    #   run: git config --global --add safe.directory /github/workspace
 
+    # https://github.com/gaurav-nelson/github-action-markdown-link-check/issues/132
     - name: Run markdown-link-check
-      uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
+      uses: KATO-Hiro/github-action-markdown-link-check@master
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
