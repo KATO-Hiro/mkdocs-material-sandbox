@@ -19,6 +19,7 @@ jobs:
     # - name: Trust /github/workspace (after git v2.35.2)
     #   run: git config --global --add safe.directory /github/workspace
 
+    # Workaround
     # https://github.com/gaurav-nelson/github-action-markdown-link-check/issues/132
     - name: Run markdown-link-check
       uses: KATO-Hiro/github-action-markdown-link-check@master
