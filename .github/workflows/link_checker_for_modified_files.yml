@@ -8,7 +8,7 @@ jobs:
     steps:
 
     - name: Check out Git repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     
     # Workaround for `fatal: unsafe repository (REPO is owned by someone else)` issue
     # https://github.com/actions/checkout/issues/760
